@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1 {
+    color:plum;
+}
+
+#h-w {
+    background-color: brown;
+    color:bisque;
+}
+
+#s-1 {
+    color:black;
+    background-color: blueviolet;
+}

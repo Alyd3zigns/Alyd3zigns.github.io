@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1 {
+    background-color: rgb(228, 201, 245);
+}
+
+#s-1 {
+    background-color: rgb(203, 123, 227);
+    color:rgb(93, 27, 109);
+}
+
+#s-2 {
+    background-color: rgb(93, 27, 109);
+    background-color: rgb(203, 123, 227);
+}
+
+#p-2 {
+    background-color: rgb(255, 52, 194);
+    color:antiquewhite;
+}
+
+#s-3 {
+    background-color: antiquewhite;
+    color: rgb(255, 52, 194);
+}
+
+#s-4 {
+    background-color: antiquewhite;
+    color: rgb(255, 52, 194);
+}
+
+#p-3 {
+    background-color: tomato;
+    color:rgb(58, 34, 21);
+}
+
+#s-5 {
+    background-color: darkred;
+    color: bisque;
+}
+
+#s-6 {
+    background-color:rgb(58, 34, 21);
+    color: bisque;
+}
