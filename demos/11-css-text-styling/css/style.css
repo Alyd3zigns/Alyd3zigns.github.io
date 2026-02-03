@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#s-1 {
+    font-weight: bold;
+}
+
+#s-2 {
+    font-style: oblique;
+}
+
+#p-1 {
+    font-size: 12px;
+    font-variant: small-caps;
+}
+#p-2 {
+    font-size: 70px;
+    font-variant: small-caps;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+#a-1 {
+    color: blueviolet;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+#centered-image {
+    text-align: center;
+}
