@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#my-color {
+    color: green;
+}
+
+.shadowed {
+    background-color: brown;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.561);
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
