@@ -10,7 +10,7 @@ body {
 #container {
     background-color: rgb(39, 66, 74);
     width: 500px;
-    min-height:100vh;
+    min-height: 100vh;
     font-size: 0px;
 }
 .block {
