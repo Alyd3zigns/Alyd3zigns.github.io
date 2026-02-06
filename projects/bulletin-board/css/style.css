@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+.post-it {
+    width: 300px;
+    height: 250px;
+    background-color: transparent;
+    display: inline-block;
+    margin: 24px;
+    padding: 15px;
+    text-align: center;
+    font-family: "Handlee", cursive;
+    color: darkblue
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: lightskyblue;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 24px;
+}
+
+li {
+    font-size: 24px;
+    text-align: left;
+}
+
+#reminder {
+    background-color: yellowgreen;
+    border-radius: 7px;
+}
+
+#motive {
+    padding-top: 50px;
+}
+
+.pink {
+    background-color: lightpink;
+}
+
+img {
+    width: 300px;
+    border: 16px;
+}
