@@ -19,8 +19,9 @@ body {
     background-color: goldenrod;
     display: inline-block;
     border: 10px outset rgba(27, 27, 27, 0.399);
-    background: linear-gradient(45deg, rgba(251, 251, 250, 0.763), rgba(5, 5, 5, 0));
-
+    background: linear-gradient(
+        45deg, rgba(251, 251, 250, 0.763), rgba(5, 5, 5, 0)
+    );
 }
 
 .red {
@@ -35,10 +36,8 @@ body {
 
 .goldenrod {
     background-color: rgb(207, 120, 238);
-    
 }
 
 .pink {
     background-color: rgb(192, 128, 139);
-    
 }
