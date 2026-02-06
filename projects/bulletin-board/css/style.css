@@ -6,10 +6,10 @@
     background-color: transparent;
     display: inline-block;
     margin: 24px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     font-family: "Handlee", cursive;
-    color: darkblue
+    color: darkblue;
 }
 
 .green {
@@ -50,7 +50,11 @@ li {
     background-color: lightpink;
 }
 
-img {
-    width: 300px;
-    border: 16px;
+.cat {
+    width: 250px;
+    border: .5px solid grey;
+}
+
+.white {
+    background-color: white;
 }
