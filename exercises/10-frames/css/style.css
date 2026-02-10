@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {}
+
+img {
+    width: 250px;
+    border: 12px solid goldenrod;
+    background-color: rgb(241, 239, 215);
+    padding: 12px;
+    margin:24px;
+}
+
+#blue-1 {
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 45px;
+    width: 270px;
+    border: 12px solid goldenrod;
+    background-color: rgb(241, 239, 215);
+    padding: 20px;
+    margin:24px;
+}
