@@ -12,11 +12,10 @@ body {
 img {
     width: 250px;
     border: 12px outset goldenrod;
-    box-shadow: inset 0px 0px 10px rgb(165, 101, 42);
+    box-shadow: inset 0px 0px 10px rgb(53, 37, 22);
     background-color: rgb(241, 239, 215);
     padding: 12px;
     margin:24px;
-    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.31)
 }
 
 #bird-3 {
@@ -28,9 +27,12 @@ h2 {
     font-size: 45px;
     width: 270px;
     border: 12px outset goldenrod;
-    box-shadow: inset 0px 0px 10px rgb(165, 101, 42);
-    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.31);
+    box-shadow: inset 0px 0px 10px rgb(53, 37, 22);
     background-color: rgb(241, 239, 215);
     padding: 20px;
     margin:24px;
+}
+
+.bird {
+    display: inline-block;
 }

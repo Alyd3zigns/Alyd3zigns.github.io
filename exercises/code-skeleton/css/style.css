@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+#sidebar .chapter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#sidebar .chapter.edit {
+    color: red;
+    font-style: italic;
+}
+
+#sidebar .edit {
+    color: orange;
+    font-style: italic;
+}
+
+ul {
+    margin: 10px;
+}
+
+li {
+    padding: 2px;
+}
+
+div {
+    width: 500px;
+    min-height: 100vh;
+    padding: 12px;
+    margin: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
