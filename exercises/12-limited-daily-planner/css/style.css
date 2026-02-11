@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Faculty+Glyphic&family=Handlee&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    font-family: "Coiny", system-ui;
+    background-color: rgba(255, 255, 255, 0.456);
+    border-radius: 30px;
+    padding: 6px;
+    box-shadow: inset 7px -12px 10px rgb(255, 255, 255);
+}
+
+#morning {
+    background-color: pink;
+    border: 12px;
+    border-radius: 30px;
+    margin: 12px;
+    padding: 12px;
+    box-shadow: inset 7px -12px 10px palevioletred;
+}
+
+#afternoon {
+    background-color: rgb(193, 255, 192);
+    border: 12px;
+    border-radius: 30px;
+    margin: 12px;
+    padding: 12px;
+    box-shadow: inset 7px -12px 10px rgb(112, 216, 143);
+}
+
+#evening {
+    background-color: rgb(192, 206, 255);
+    border: 12px;
+    border-radius: 30px;
+    margin: 12px;
+    padding: 12px;
+    box-shadow: inset 7px -12px 10px rgb(112, 136, 216);
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.completed.important {
+    background-color: yellow;
+    padding: 3px;
+}
+
+.important {
+    color: rgb(255, 110, 110);
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
