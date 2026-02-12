@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Faculty+Glyphic&family=Handlee&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.button {
+    background-color: rgb(253, 178, 39);
+    color: rgb(255, 255, 255);
+    padding: 24px 24px;
+    border-radius: 16px;
+    font-size: 28px;
+    margin: 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "DynaPuff", system-ui;
+    font-weight: 550;
+    box-shadow: inset 7px -12px 10px rgba(255, 255, 255, 0.548);
+    text-align: center;
+}
+
+#l {
+    font-size: 50px;
+    color:red
+}
+
+#s {
+    font-size: 50px;
+    color: blue
+}
+
+#le {
+    font-size: 50px;
+    color: green
+}
+
+#spanish {
+    font-size: 20px;
+    text-align: center;
+}
+
+#exclamation {
+    font-size: 50px;
+    color: deeppink;
+}
