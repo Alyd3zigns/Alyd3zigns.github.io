@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    /* CENTERED */
+    width: 60%;
+    max-width: 800px;
+    background-color: lightcyan;
+    /* QUIZ QUESTION AND FINAL EVAL */
+    margin-left: auto;
+    margin-right: auto;
+    padding:12px;
+}
