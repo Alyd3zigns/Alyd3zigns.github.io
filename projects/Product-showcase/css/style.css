@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Courgette&family=Delius+Swash+Caps&family=DynaPuff:wght@400..700&family=Emilys+Candy&family=Faculty+Glyphic&family=Handlee&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.div-1 {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.light-purple-container {
+    background-color: rgb(180, 176, 251);
+    padding: 48px 24px;
+    color: rgb(87, 84, 156);
+}
+
+.dark-purple-container {
+    background-color: rgb(87, 84, 156);
+    padding: 48px 24px;
+    color: rgb(180, 176, 251);
+}
+
+.dark-red-container {
+    background-color: rgb(255, 49, 49);
+    padding: 48px 24px;
+    color: rgb(255, 187, 187);
+}
+
+.brown-container {
+    background-color: rgb(85, 54, 31);
+    padding: 48px 24px;
+    color: rgb(219, 180, 125);
+}
+
+h4 a {
+    color: rgb(87, 84, 156);
+}
+
+.button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 12px;
+    text-decoration: none;
+    box-shadow: -3px -5px inset rgba(255, 255, 255, 0.543);
+}
+
+img {
+    width: 100%;
+}
+
+.blue {
+    background-color: rgb(24, 24, 117);
+    
+}
+
+.red {
+    background-color: rgb(255, 187, 187);
+    color: rgb(255, 49, 49);
+}
+
+.brown {
+    background-color: rgb(219, 180, 125);
+    color: rgb(85, 54, 31);
+}
+
+#smore { 
+    width: 450px;
+}
+
+#space {
+    width: 460px;
+}
