@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Emilys+Candy&family=Faculty+Glyphic&family=Handlee&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,4 +6,24 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+.div-1 {
+    max-width: 100%;
+    width: 600px;
+    background-color: rgb(157, 74, 86);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    padding:12px;
+    font-family: "Emilys Candy", serif;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: "Coiny", system-ui;
 }
