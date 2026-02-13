@@ -9,8 +9,7 @@ body {
 }
 
 .div-1 {
-    max-width: 100%;
-    width: 600px;
+    max-width: 600px;
     background-color: rgb(157, 74, 86);
     margin-left: auto;
     margin-right: auto;
@@ -18,6 +17,7 @@ body {
     padding:12px;
     font-family: "Emilys Candy", serif;
     font-style: normal;
+    border-radius: 5%;
 }
 
 img {
