@@ -34,11 +34,19 @@ body {
 
 .card p {
     font-size: 24px;
-    margin: 24px 0px 0px;
+    margin: 24px;
 }
 
 .card img {
     width: 100%;
     margin: 12px;
     border-radius: 36px;
+}
+
+.button {
+    background-color: mediumvioletred;
+    color: pink;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 6px 12px;
 }
