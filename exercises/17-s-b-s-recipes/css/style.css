@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Courgette&family=Delius+Swash+Caps&family=DynaPuff:wght@400..700&family=Emilys+Candy&family=Faculty+Glyphic&family=Handlee&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Courgette&family=Delius+Swash+Caps&family=DynaPuff:wght@400..700&family=Emilys+Candy&family=Faculty+Glyphic&family=Handlee&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.sbs-container {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.sbs-container 
+.img-container, 
+.sbs-container, 
+.text-container {
+    /* width: 300px; */
+    flex: 1;
+    /* border-bottom: 50px black; */
+}
+
+.sbs-container .img-container img {
+    width: 100%;
+}
+
+#single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.sbs-container h5 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    Margin: 12px 0px;
+}
+.sbs-container h2 {
+    font-family: "Cormorant", serif;
+    Font-size: 60px;
+    Margin: 0px;
+}
+
+.info-container-1 {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.info-container-2 {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+div span {
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+}
+
+#description {
+    font-family: "Work Sans", sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+hr {
+    margin: -100px;
+}
