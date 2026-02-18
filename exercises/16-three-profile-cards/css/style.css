@@ -10,7 +10,7 @@ body {
 #single-column {
     width: 90vw;
     max-width: 1200px;
-    margin: 0px auto;
+    margin: auto;
 }
 
 #card-container {
@@ -24,7 +24,7 @@ body {
     border-radius: 36px;
     margin: 36px 0px;
     padding: 36px;
-    text-align: center;
+    /* vertical-align: middle; */
 }
 
 .card h3 {
@@ -35,12 +35,14 @@ body {
 .card p {
     font-size: 24px;
     margin: 24px;
+    /* vertical-align: middle; */
 }
 
 .card img {
     width: 100%;
     margin: 12px;
     border-radius: 36px;
+    /* vertical-align: middle; */
 }
 
 .button {
@@ -49,4 +51,5 @@ body {
     text-decoration: none;
     border-radius: 12px;
     padding: 6px 12px;
+    /* vertical-align: middle; */
 }
