@@ -52,7 +52,7 @@ h4 a {
     text-decoration: none;
     box-shadow: -3px -5px inset rgba(255, 255, 255, 0.543);
     display: inline-block;
-    margin-right: 8px;
+    justify-content: center;
 }
 
 img {
