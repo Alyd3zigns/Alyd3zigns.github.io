@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -6,7 +7,6 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
 #nav-bar {
     background: linear-gradient(
         to bottom, 
@@ -24,14 +24,14 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-family: "National Park", sans-serif;
 }
 
-#nav-bar img{
-    width: 150px;
-}
 
 #nav-bar #logo {
     margin-right: auto;
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-size: 36px
 }
 
 #nav-bar .cta {
@@ -50,4 +50,9 @@ body {
     width: 800px;
     margin: 48px auto;
     font-size: 24px;
+}
+
+#nav-bar .link {
+    justify-content: space-between;
+    align-items: center;
 }
