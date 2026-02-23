@@ -11,18 +11,102 @@ body {
     max-width: 1200px;
     margin: 36px auto;
     display: flex;
+    /* align-items: center; */
+    gap: 12px;
+    /* justify-items: center; */
 }
 
 #thumbnail {
     width: 100px;
-    background-color: lightcoral;
 }
 
 #featured-img {
-    background-color: lightblue;
     flex: 1;
 }
 
 #product-info {
-    background-color: silver;
+    width: 510px;
+}
+
+#large-bear {
+    width: 100%;
+    object-fit: cover;
+}
+
+.small-bear {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* pasted css */
+.sbs-container {
+    display: flex;
+    align-items: center;
+    gap: px;
+}
+
+.first {
+  width: 500px;  
+  padding: 12px;
+  font-size: 12px;
+}
+
+.sbs-container .icon-container, .sbs-container .text-container {
+    flex: 1;
+    
+}
+
+#klarna-logo {
+    width:60px;
+    display: inline-block;
+}
+
+.grey-font {
+    color: grey
+}
+
+#one {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 60px 15px 15px;
+    border: .5px solid black;
+    border-radius: 8px;
+    margin: 6px;
+    display: inline-block;
+}
+
+.button {
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 20px;
+    margin: 6px;
+    display: block;
+    text-align: center;
+}
+
+.blue {
+    color: white;
+    background-color: rgb(0, 128, 255);
+}
+
+.white {
+    border: 1px solid rgb(0, 128, 255);
+    color: rgb(0, 128, 255);
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#text p {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.text-container p {
+    font-size: 14px;
 }

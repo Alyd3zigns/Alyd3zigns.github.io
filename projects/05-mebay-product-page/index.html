@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"
+        >
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +14,117 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+        <!-- Flexbox container -->
         <div id="three-column">
-            
-            <!-- Flexbox container -->
-            <div id="card-container">
 
-                <!-- Flexbox item -->
-                <div id="thumbnail">
+            <!-- Flexbox item -->
+            <div id="thumbnail">
+                <i class="fa-solid fa-circle-chevron-up"></i>
+                <img class="small-bear" src="images/tn-bear.webp">
+                <img class="small-bear" src="images/tn-bear-2.webp">
+                <img class="small-bear" src="images/tn-bear-3.webp">
+                <img class="small-bear" src="images/tn-bear-4.webp">
+                <img class="small-bear" src="images/tn-bear-5.webp">
+                <img class="small-bear" src="images/tn-bear.webp">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+
+            <!-- Flexbox item -->
+            <div id="featured-img">
+                <img 
+                    id="large-bear"
+                    src="images/featured-bear.webp" 
+                    alt="brown stuffed bear"
+                >
+            </div>
+
+            <!-- Flexbox item -->
+            <div id="product-info">
+                <h1>
+                    Big Teddy Bear Large Teddy Bear 
+                    Stuffed Animal Birthday 36 inch Brown
+                </h1>
+                <hr>
+                <div class="sbs-container first">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <div class="text-container first">
+                        <div>
+                            <p>
+                                <b>fiderom_79</b> 
+                                <span class="grey-font">(2669)</span> 
+                            </p>
+                        </div>
+                        <div id="text">
+                            <p>
+                                99.6% positive
+                            </p>
+                            <p>
+                                Seller's other items
+                            </p>
+                            <p>
+                                Seller's other items
+                            </p>
+                            <p>
+                                Contact seller 
+                            </p>
+                        </div>
+                    </div>
+                        <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <hr>
+
+                <div class="text-container">
+                    <h2>US $40.59</h2>
+                    <p>
+                        or 4 interest-free payments of $10.15 available with 
+                        <img id="klarna-logo" src="images/klarna-logo.png">
+                        <a href="#"> Learn more</a>
+                    </p>
+                </div>
+                <hr>
+                <div class="sbs-container">
+                    <div class="text-container">
+                        <p>
+                            Condition:
+                        </p>
+                    </div>
+                    <div class="text-container">
+                        New
+                        <i class="fa-solid fa-circle-info"></i>
+                    </div>
+                    
                 </div>
 
-                <!-- Flexbox item -->
-                <div id="featured-img">
+                <div class="sbs-container">
+                    <div class="text-container">
+                        <p>
+                            Quantity
+                        </p>
+                    </div>
+                    <a href="#" id="one">1</a>
+                    <div class="text-container"> 
+                        <p>
+                            <span class="grey-font" >3 availible</span>
+                        </p>
+                    </div>
                 </div>
-
-                <!-- Flexbox item -->
-                <div id="product-info">
+                <div>
+                    <div>
+                        <a class="button blue" href="#">
+                            Buy It Now
+                        </a>
+                    </div>
+                    <div>
+                        <a class="button white" href="#">
+                            Add to cart
+                        </a>
+                    </div>
+                    <div>
+                        <a class="button white" href="#">
+                            <i class="fa-regular fa-heart"></i>
+                            Add to Watchlist
+                        </a>
+                    </div>
                 </div>
 
             </div>
