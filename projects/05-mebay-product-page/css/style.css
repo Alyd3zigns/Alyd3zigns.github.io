@@ -62,7 +62,11 @@ body {
 }
 
 .grey-font {
-    color: grey
+    color: grey;
+}
+
+#learn-more {
+    text-decoration: none;
 }
 
 #one {
@@ -102,9 +106,10 @@ h1 {
     font-size: 24px;
 }
 
-#text p {
+#text a {
     display: inline-block;
     text-decoration: underline;
+    color: black
 }
 
 .text-container p {
