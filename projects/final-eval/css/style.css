@@ -6,3 +6,31 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#poster-container {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(180, 176, 251);
+    padding: 35px;
+}
+
+.sbs-container img {
+    width: 300px;
+    height: 268px;
+}
+
+.sbs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.sbs-container p {
+    font-size: 70px
+}
+
