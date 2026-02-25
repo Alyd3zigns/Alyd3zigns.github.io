@@ -46,3 +46,30 @@ body {
     display: block;
     font-family: "Londrina Shadow", sans-serif;
 }
+
+#nav-bar {
+    background: linear-gradient(
+        to bottom, 
+        skyblue,
+        blue
+    );
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#nav-bar img{
+    width: 150px;
+}
+
+#nav-bar #logo {
+    margin-right: auto;
+}
