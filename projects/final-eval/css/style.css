@@ -17,8 +17,7 @@ body {
 }
 
 .sbs-container img {
-    width: 300px;
-    height: 268px;
+    width: 400px;
 }
 
 .sbs-container {
@@ -69,4 +68,7 @@ h1 {
     text-decoration: none;
     padding: 6px 12px;
     margin: 6px;
+    font-family: "Alfa Slab One", serif;
+    font-size: 34px;
+    border-radius: 12px;
 }
