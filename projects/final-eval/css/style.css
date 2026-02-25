@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -12,7 +13,7 @@ body {
     max-width: 1200px;
     margin: 0px auto;
     background-color: rgb(180, 176, 251);
-    padding: 35px;
+    padding: 25px;
 }
 
 .sbs-container img {
@@ -31,6 +32,41 @@ body {
 }
 
 .sbs-container p {
-    font-size: 70px
+    font-size: 70px;
 }
 
+.teams h2 {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+}
+
+.teams {
+    padding: 45px;
+}
+
+.teams p {
+    font-family: "Tourney", sans-serif;
+}
+
+.text-container h2 {
+    font-size: 35px;
+    margin: 0px;
+    font-family: "Tourney", sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 6px;
+}
+
+.party-info {
+    font-family: "Alfa Slab One", serif;
+}
+
+.buttons a {
+    background-color: rgb(158, 55, 55);
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    margin: 6px;
+}
