@@ -6,3 +6,88 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+.blog {
+    width: 60%;
+    max-width: 1000px;
+    background-color: lightpink;
+    margin-left: auto;
+    margin-right: auto;
+    padding:12px;
+}
+
+#hero {
+    max-width: 100%;
+}
+
+.media-text {
+    display: block;
+    width: auto;
+    background-color: rosybrown;
+    padding: 24px;
+    margin:12px
+}
+
+#text-1 {
+    width: 40%;
+    vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+    margin-left: 170px
+}
+
+#text-2 {
+    width: 40%;
+    vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+    margin-right: 170px
+}
+.media-text img {
+    width: 40%;
+    vertical-align: middle;
+    object-fit: cover;
+    display: inline-block;
+}
+
+#paragraph {
+    margin: 12px;
+}
+
+h1 {
+    margin: 12px
+}
+
+h5 {
+    margin: 12px
+}
+
+#sidebar {
+    background-color: lightpink;
+    color: black;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+#sidebar .chapter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    margin: 10px;
+}
+
+li {
+    padding: 2px;
+}
+
+#sidebar div {
+    width: 400px;
+    min-height: 100vh;
+    padding: 12px;
+    margin: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
