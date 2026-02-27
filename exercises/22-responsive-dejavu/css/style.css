@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kablammo&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #538f6892;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 24px solid #538f68;
+    padding: 30px;
+    gap: 30px;
+    background-color: rgb(255, 246, 208);
+    margin: 100px
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero {
+    background-image: url(../images/gradient-hero.jpg); 
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.hero .hero-content h1 {
+    font-size: 95px;
+    color: white;
+    /* font-family: "Kablammo", system-ui; */
+    font-family: "Indie Flower", cursive;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+#nav a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Indie Flower", cursive;
+}
+
+#nav {
+    background-color: #538f6892;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1536px) {
+    .basic-grid-gallery {
+        flex-direction: column;
+    }
+}
+
+/* break point */
+@media screen and (max-width: 450px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
