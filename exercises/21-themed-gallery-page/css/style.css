@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #538f6892;
 }
 
 .basic-grid-gallery {
@@ -13,11 +14,30 @@ body {
     border: 24px solid #538f68;
     padding: 30px;
     gap: 30px;
-    background-color: white;
+    background-color: rgb(255, 246, 208);
+    margin: 100px
 }
 
 .basic-grid-gallery img {
     width: 100%;
     height: 400px;
     object-fit: cover;
+}
+
+.hero {
+    background-image: url(../images/hero-island.jpg); 
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.hero .hero-content h1 {
+    font-size: 100px;
+    background-color: rgba(255, 246, 208, 0.623);
+    padding: 12px;
+    border-radius: 12px;
 }
