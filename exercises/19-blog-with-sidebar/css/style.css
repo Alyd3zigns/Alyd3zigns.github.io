@@ -16,7 +16,7 @@ body {
     padding:12px;
 }
 
-#hero {
+.blog #hero {
     max-width: 100%;
 }
 
@@ -28,7 +28,7 @@ body {
     margin:12px
 }
 
-#text-1 {
+.blog #text-1 {
     width: 40%;
     vertical-align: middle;
     text-align: left;
@@ -36,29 +36,29 @@ body {
     margin-left: 170px
 }
 
-#text-2 {
+.blog #text-2 {
     width: 40%;
     vertical-align: middle;
     text-align: left;
     display: inline-block;
     margin-right: 170px
 }
-.media-text img {
+.blog .media-text img {
     width: 40%;
     vertical-align: middle;
     object-fit: cover;
     display: inline-block;
 }
 
-#paragraph {
+.blog #paragraph {
     margin: 12px;
 }
 
-h1 {
+.blog h1 {
     margin: 12px
 }
 
-h5 {
+.blog h5 {
     margin: 12px
 }
 
@@ -73,14 +73,6 @@ h5 {
 #sidebar .chapter {
     font-weight: bold;
     font-size: 24px;
-}
-
-ul {
-    margin: 10px;
-}
-
-li {
-    padding: 2px;
 }
 
 #sidebar div {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Rubik+Dirt&family=Syne+Mono&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -49,9 +49,9 @@ body {
 
 #nav-bar {
     background: linear-gradient(
-        to bottom, 
-        skyblue,
-        blue
+        to top, 
+        rgb(255, 228, 196),
+        rgb(116, 81, 40)
     );
     display: flex;
     /* justify-content: space-between; */
@@ -62,14 +62,14 @@ body {
 
 #nav-bar a {
     text-decoration: none;
-    color: white;
-    padding: 24px;
-}
-
-#nav-bar img{
-    width: 150px;
+    color: rgb(12, 57, 12);
+    padding: 10px 24px;
+    font-family: "Syne Mono", monospace;
+    font-size: 24px;
 }
 
 #nav-bar #logo {
     margin-right: auto;
+    font-family: "Syne Mono", monospace;
+    color: rgb(12, 57, 12);
 }
