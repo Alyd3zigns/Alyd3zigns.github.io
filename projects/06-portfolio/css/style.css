@@ -77,9 +77,9 @@ body {
     top: 0px;
     justify-content: center;
 }
-.nav-content a{
+.nav-content a {
     color: white;
     text-decoration: none;
     margin-left: auto;
-    padding: 36px
+    padding: 36px;
 }
