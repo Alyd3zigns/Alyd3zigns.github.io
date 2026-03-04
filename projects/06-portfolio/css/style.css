@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lugrasimo&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ body {
 .hero-content {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.624);
-    padding: 30px 30px 0px 30px;
+    padding: 50px 90px 0px 90px;
 }
 
 .hero-content h1 {
@@ -42,9 +42,10 @@ body {
     padding: 12px 36px;
     font-size: 34px;
     display: inline-block;
-    margin: 100px 0px 48px 0px;
+    margin: 100px 0px 58px 0px;
     box-shadow: inset 0px -6px 9px rgba(255, 255, 255, 0.262);
     border-radius: 12px;
+    font-family: "Bodoni Moda", serif;
 }
 
 #page-content {
@@ -76,10 +77,46 @@ body {
     position: sticky;
     top: 0px;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.624);
 }
 .nav-content a {
     color: white;
     text-decoration: none;
     margin-left: auto;
     padding: 36px;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(73, 4, 27);
+    box-shadow: inset 0px -6px 9px rgba(255, 255, 255, 0.262);
+    border-radius: 12px;
+    margin: 36px 0px;
+    padding: 24px 36px 36px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 45px;
+    margin: 0px;
+    color: white;
+    margin: 0px 0px 45px 0px;
+}
+
+.button {
+    background-color: white;
+    color: rgb(73, 4, 27);
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    display: inline-block;
+    box-shadow: inset 0px -6px 9px rgba(0, 0, 0, 0.694);
+    font-family: "Bodoni Moda", serif;
+    font-weight: bold;
+    font-size: 20px;
 }
