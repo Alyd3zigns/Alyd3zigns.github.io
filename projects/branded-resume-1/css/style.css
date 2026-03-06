@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#all-content {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.sbs-container {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+#main-content {
+    width: 620px;
+    background-color: rgb(255, 237, 246);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 12px
+}
+
+#main-content h2 {
+    margin-top: 0px;
+}
+
+#main-content h1 {
+    margin-bottom: 6px;
+    margin-top: 0px;
+    color: rgb(255, 102, 127);
+}
+
+#main-content p {
+    width: 600px;
+    color: rgb(60, 60, 60);
+}
+
+#main-content li {
+    width: 500px;
+    color: rgb(60, 60, 60);
+}
+
+#main-content h4 {
+    margin: 0px;
+}
+
+#main-content h3 {
+    color: rgb(255, 102, 127);
+}
+
+#main-content #experience {
+    margin-bottom: 6px;
+}
+
+#main-content h6 {
+    margin: 0px;
+}
+
+#side-content {
+    background-color: rgb(255, 237, 246);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+#side-content h2 {
+    color: rgb(255, 102, 127)
+}
+
+#side-content #school {
+   margin: 0px;
+}
+
+#side-content #education {
+    margin-bottom: 6px;
+}
