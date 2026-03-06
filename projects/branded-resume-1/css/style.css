@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Domine:wght@400..700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,36 +6,43 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    font-family: "Domine", serif;
 }
 
 #all-content {
     width: 90vw;
     max-width: 1200px;
     margin: 0px auto;
+    background-color: rgb(255, 204, 211);
+    border-radius: 12px;
+    box-shadow: 4px 4px 20px rgb(238, 51, 83);
 }
 
 .sbs-container {
     display: flex;
-    align-items: center;
     gap: 36px;
 }
 
 #main-content {
     width: 620px;
-    background-color: rgb(255, 237, 246);
     padding: 12px;
-    border-radius: 12px;
-    margin-top: 12px
+    margin-top: 12px;
 }
 
 #main-content h2 {
     margin-top: 0px;
 }
 
-#main-content h1 {
+#title {
+    text-align: center;
+}
+
+#title h1 {
     margin-bottom: 6px;
     margin-top: 0px;
-    color: rgb(255, 102, 127);
+    color: rgb(238, 51, 83);
+    font-size: 45px;
+    font-family: "Bungee Shade", sans-serif;
 }
 
 #main-content p {
@@ -51,8 +59,8 @@ body {
     margin: 0px;
 }
 
-#main-content h3 {
-    color: rgb(255, 102, 127);
+#main-content h2 {
+    color: rgb(238, 51, 83);
 }
 
 #main-content #experience {
@@ -64,13 +72,15 @@ body {
 }
 
 #side-content {
-    background-color: rgb(255, 237, 246);
     padding: 12px;
-    border-radius: 12px;
+    width: 300px;
+    background-color: rgb(253, 217, 223);
+    margin-bottom: 9px;
 }
 
 #side-content h2 {
-    color: rgb(255, 102, 127)
+    color: rgb(238, 51, 83);
+    margin: 0px;
 }
 
 #side-content #school {
@@ -79,4 +89,8 @@ body {
 
 #side-content #education {
     margin-bottom: 6px;
+}
+
+#side-content p {
+    color: rgb(60, 60, 60);
 }
