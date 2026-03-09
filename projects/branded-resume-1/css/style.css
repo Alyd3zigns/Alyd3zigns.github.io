@@ -9,6 +9,7 @@ body {
     font-family: "Domine", serif;
 }
 
+
 #all-content {
     width: 90vw;
     max-width: 970px;
@@ -16,8 +17,8 @@ body {
     background-color: rgb(255, 204, 211);
     border-radius: 12px;
     box-shadow: 12px 12px 10px rgba(125, 84, 90, 0.619);
-    margin-top: 24px;
-    padding: 30px;
+    margin-top: 12px;
+    padding: 12px 30px;
 }
 
 .sbs-container {
@@ -27,7 +28,6 @@ body {
 
 #main-content {
     width: 620px;
-    margin-top: 12px;
 }
 
 #main-content h2 {
@@ -49,17 +49,18 @@ body {
 }
 
 #main-content p {
-    width: 600px;
     color: rgb(60, 60, 60);
 }
 
-#main-content li {
+ul {
     width: 500px;
-    color: rgb(60, 60, 60);
+    color: rgb(88, 88, 88);
+    margin-top: 0px;
 }
 
 #main-content h4 {
-    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 #main-content h2 {
@@ -87,14 +88,54 @@ body {
     margin: 0px;
 }
 
-#side-content #school {
-   margin: 0px;
-}
-
-#side-content #education {
-    margin-bottom: 6px;
+.bold {
+    font-weight: bold;
 }
 
 #side-content p {
     color: rgb(60, 60, 60);
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+#dates {
+    margin-top: 0px;
+}
+
+.work {
+    margin-bottom: 0px
+}
+
+@media print {
+    #all-content {
+        width: 100%;
+        max-width: none;
+        margin: 0px auto;
+        background-color: transparent;
+        border-radius: 12px;
+        box-shadow: none;
+        font-size: 11px;
+    }
+    
+    .sbs-container {
+        gap: 24px;
+    }
+    
+    #main-content {
+        width: auto;
+        flex: 1;
+        margin-top: 12px
+    }
+
+    #side-content {
+        width: 175px;
+        background-color: transparent;
+        box-shadow: none;
+    }
 }
