@@ -9,7 +9,6 @@ body {
     font-family: "Domine", serif;
 }
 
-
 #all-content {
     width: 90vw;
     max-width: 970px;
@@ -37,7 +36,7 @@ body {
 #title {
     text-align: center;
     border-bottom: 1.5px solid rgb(238, 51, 83);
-    margin-bottom: 24px
+    margin-bottom: 24px;
 }
 
 #title h1 {
@@ -109,7 +108,7 @@ p {
 }
 
 .work {
-    margin-bottom: 0px
+    margin-bottom: 0px;
 }
 
 @media print {
@@ -130,7 +129,7 @@ p {
     #main-content {
         width: auto;
         flex: 1;
-        margin-top: 12px
+        margin-top: 12px;
     }
 
     #side-content {
